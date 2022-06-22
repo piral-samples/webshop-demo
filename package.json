@@ -1,0 +1,15 @@
+{
+  "name": "piral-glasses-shop-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:app": "pnpm --filter @smapiot/glasses-shop-piral-sample run start",
+    "build:app": "pnpm --filter @smapiot/glasses-shop-piral-sample run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
