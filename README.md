@@ -8,7 +8,15 @@
 
 You can visit this demo at [webshop-demo.samples.piral.cloud/](https://webshop-demo.samples.piral.cloud/).
 
-:warn: **WARNING**: Work in progress. Not done yet.
+:warning: **WARNING**: Work in progress. Not done yet.
+
+Status:
+
+- [x] Monorepo
+- [x] App Shell
+- [ ] Pilets
+- [ ] Mock data
+- [ ] Demo online
 
 ## Getting Started
 

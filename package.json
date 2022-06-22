@@ -1,15 +1,16 @@
 {
   "name": "piral-glasses-shop-sample",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Monorepo to show a distributed webshop built with Piral.",
+  "author": "smapiot",
+  "license": "MIT",
   "scripts": {
+    "start": "npx pilets debug 'pilets/*'",
     "start:app": "pnpm --filter @smapiot/glasses-shop-piral-sample run start",
     "build:app": "pnpm --filter @smapiot/glasses-shop-piral-sample run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "piral-cli": "0.14.27",
+    "piral-cli-esbuild": "0.14.27"
+  }
 }
